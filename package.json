@@ -1,5 +1,5 @@
 {
-  "name": "-goit-nodejs-hw-01",
+  "name": "goit-nodejs-hw-01",
   "version": "1.0.0",
   "description": "nodejs-hw-01",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olehscherbak/-goit-nodejs-hw-01.git"
+    "url": "git+https://github.com/olehscherbak/goit-nodejs-hw-01.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/olehscherbak/-goit-nodejs-hw-01/issues"
+    "url": "https://github.com/olehscherbak/goit-nodejs-hw-01/issues"
   },
-  "homepage": "https://github.com/olehscherbak/-goit-nodejs-hw-01#readme",
+  "homepage": "https://github.com/olehscherbak/goit-nodejs-hw-01#readme",
   "devDependencies": {
     "nodemon": "^2.0.21"
   }
