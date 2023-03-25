@@ -1,1 +1,3 @@
-console.log("start run program else");
+const contacts = require("./contacts");
+
+console.log(contacts.listContacts());
