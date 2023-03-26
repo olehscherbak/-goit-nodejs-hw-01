@@ -3,12 +3,13 @@ const path = require("path");
 
 const contactsPath = path.resolve("db/contacts.json");
 
-function listContacts() {
+async function listContacts() {
   // ...твій код
 
-  fs.readFile(contactsPath)
+  await fs
+    .readFile(contactsPath)
     .then((data) => {
-      JSON.parse(data.toString());
+      console.log(JSON.parse(data.toString()));
     })
     .catch((err) => console.log("error: ", err.message));
 }
