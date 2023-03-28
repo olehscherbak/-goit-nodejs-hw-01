@@ -20,5 +20,8 @@
   "homepage": "https://github.com/olehscherbak/goit-nodejs-hw-01#readme",
   "devDependencies": {
     "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
   }
 }
